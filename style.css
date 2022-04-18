@@ -1,0 +1,262 @@
+body{
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e2edff;
+  padding-top: 100px;
+}
+
+#about {
+  max-width: 900px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.aliran {
+  margin-top: -17px;
+}
+
+
+
+.rom {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.kol {
+  padding-bottom: 20px;
+  color: #138ab9;
+}
+
+.kol-satu {
+    padding-bottom: 20px;
+    color: rgb(255, 0, 170);
+}
+
+/* projek-1 */
+.contain-satu {
+  max-width: 900px;
+  margin: 50px auto;
+  padding-bottom: 70px;
+}
+
+.kotak {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.kotak img {
+  width: 70%;
+  order: 1;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+
+.p1 {
+  padding-bottom: 20px;
+  margin-top: 70px;
+  color: rgb(233, 34, 110);
+}
+
+.konten {
+  text-align: center;
+  margin-left: 0px;
+  padding: 20px;
+  flex: 1;
+  order: 2;
+}
+/* end projek-1 */
+
+/* porjek-2 */
+.contain-dua {
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  .kotak-satu {
+      text-align: center;
+      justify-content: space-around;
+  }
+  
+  .kotak-satu img {
+    width: 70%;
+    order: 2;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+  
+  .p2 {
+    padding-bottom: 20px;
+    margin-top: 70px;
+    color: rgb(233, 34, 207);
+  }
+  
+  .konten-satu {
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    flex: 1;
+    order: 1;
+  }
+/* projek-2 */
+
+
+
+/* projek-3 */
+
+.contain-tiga {
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  .kotak-dua {
+      text-align: center;
+      justify-content: space-around;
+  }
+  
+  .kotak-dua img {
+    width: 70%;
+    order: 1;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+  
+  .p3 {
+    padding-bottom: 20px;
+    margin-top: 70px;
+    color: rgb(108, 58, 248);
+  }
+  
+  .konten-dua {
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    flex: 1;
+    order: 2;
+  }
+/* end projek-3 */
+
+
+
+
+@media (min-width: 600px) {
+  .rom {
+    display: flex;
+  }
+
+}
+
+@media (min-width: 690px){
+    
+
+/* responsive porjek-1 */
+  .kotak{
+    display: flex;
+}
+
+.kotak img{
+  width: 40%;
+  margin-left: 50px;
+}
+
+.konten{
+    text-align: right;
+    margin-left: 80px;
+}
+/* responsive porjek-1 */
+
+
+
+
+/* responsive projek-2 */
+.kotak-satu{
+  display: flex;
+}
+
+.kotak-satu img{
+width: 40%;
+margin-left: 50px;
+}
+
+.konten-satu{
+  text-align: left;
+  margin-left: 80px;
+}
+/* end responsive projek-2 */
+
+
+
+
+/* responsive projek-3 */
+.kotak-dua{
+    display: flex;
+  }
+  
+  .kotak-dua img{
+  width: 40%;
+  margin-left: 50px;
+  }
+  
+  .konten-dua{
+    text-align: left;
+    margin-left: 80px;
+  }
+/* end responsive projek-3 */
+}
+
+#contact{
+  background-color:#e2edff;
+}
+
+/* icon media */
+
+
+#media{
+  position: relative;
+  width: 100%;
+  margin-top: -30px;
+  min-height: 100px;
+  padding: 15px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}                     
+
+#media .social-icon, .menu{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#media .social-icon li, .menu{
+  list-style: none;
+}
+
+#media .social-icon li a{
+  font-size: 27px;
+  margin: 10px;
+  color: black;
+  display: inline-block;
+  transition: 0.5s;
+  
+}
+/* end icon media */
+
+section{
+  padding-top: 60px;
+}
+

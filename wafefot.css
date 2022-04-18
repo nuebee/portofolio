@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+#glom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    margin-top: -40px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}                     
+
+footer .social-icon, .menu{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+footer .social-icon li, .menu{
+    list-style: none;
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    margin: 10px;
+    color: aliceblue;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+footer .menu li a{
+    font-size: 1.2em;
+    margin: 10px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer .cp1{
+    color: white;
+    opacity: 0.75;
+    margin-top: 20px;
+}
+
+footer .wave{
+    position: absolute;
+   left: 0;
+   top: -100px;
+   width: 100%;
+   height: 100px;
+   background:url(wave.png);
+   background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite
+}
+
+footer .wave#wave2{
+    z-index: 1000;
+    opacity: 0.7;
+    bottom: 0;
+    animation: animatewave 5s linear infinite
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 0;
+    animation: animatewave 4s linear infinite
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.3;
+    bottom: 10px;
+    animation: animatewave_2 5s linear infinite
+}
+@keyframes animatewave{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animatewave_2{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+
+.cp1{
+    text-align: center;
+
+}
+
+@media (min-width: 600px){
+.cp1{
+    text-align: left;
+}
+}
+
